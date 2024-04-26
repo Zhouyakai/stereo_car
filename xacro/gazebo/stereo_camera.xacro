@@ -21,7 +21,8 @@
           </noise>
         </camera>
         <camera name="right">
-          <pose>0 -0.1 0 0.00410 -0.00417 0.01106 </pose>
+          <pose>0 -0.3 0 0.00410 -0.00417 0.01106 </pose>
+          <!-- <pose>0 -0.2 0 0 0 0 </pose> -->
           <horizontal_fov>1.3962634</horizontal_fov>
           <image>
             <width>752</width>
@@ -45,12 +46,17 @@
           <imageTopicName>image_raw</imageTopicName>
           <cameraInfoTopicName>camera_info</cameraInfoTopicName>
           <frameName>camera</frameName>
-          <hackBaseline>0.1</hackBaseline>
+          <hackBaseline>0.3</hackBaseline>
           <distortionK1>-0.28340811</distortionK1>
           <distortionK2>0.07395907</distortionK2>
           <distortionK3>0.0</distortionK3>
           <distortionT1>0.00019359</distortionT1>
           <distortionT2>1.76187114e-05</distortionT2>
+          <!-- <distortionK1>0.0</distortionK1>
+          <distortionK2>0.0</distortionK2>
+          <distortionK3>0.0</distortionK3>
+          <distortionT1>0.0</distortionT1>
+          <distortionT2>0.0</distortionT2> -->
         </plugin>
       </sensor>
     </gazebo>

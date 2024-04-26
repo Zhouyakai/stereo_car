@@ -3,7 +3,7 @@
     <param name="robot_description" command="$(find xacro)/xacro $(find stereo_car)/xacro/stereo_car.xacro" />
     <!-- 启动 gazebo -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
-        <arg name="world_name" value="$(find stereo_car)/worlds/box_house.world" />
+        <arg name="world_name" value="$(find stereo_car)/worlds/new.world" />
     </include>
 
     <!-- 在 gazebo 中显示机器人模型 -->
